@@ -26,7 +26,7 @@ SECRET_KEY = 'flifl9t$4og-j0%&gr2a@9-bz)zueb-3fc45r7^!4px*dpx64#'
 DEBUG = True
 
 #ALLOWED_HOSTS = ['webapp-env-dev.eba-f33gpmxs.us-east-1.elasticbeanstalk.com']
-ALLOWED_HOSTS = ['.elasticbeanstalk.com']
+ALLOWED_HOSTS = ['10.0.*.*','.elasticbeanstalk.com']
 
 # Application definition
 
